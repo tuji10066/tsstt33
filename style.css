@@ -713,4 +713,8 @@ footer{
   height: 100%;
   display: flex;
 }
-
+.menu {
+  position: sticky;
+  background-color: lightgreen;
+  top: 0;
+}
