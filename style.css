@@ -708,4 +708,9 @@ footer{
     padding-left: 1em;
 
 }
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
 
