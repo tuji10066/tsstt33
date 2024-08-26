@@ -1108,7 +1108,6 @@ footer{
 }
 
 .menu {
-  position: -webkit-sticky; /* 任意 */
   position: sticky;
   background-color: lightgreen;
   top: 0;
