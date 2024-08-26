@@ -578,3 +578,133 @@ li.body-text{
 .desk-img img{
     width: 480px;
 }
+
+/*=====　フッター　=====*/
+
+footer{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.footer-navi-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-line{
+    height: 4px;
+    width: 880px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #1c1c1c;
+}
+.to-top{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.to-top-img{
+    transition: 0.3s;
+}
+.to-top-img:hover{
+    transform: translateY(-6px);
+    transition: 0.4s;
+}
+
+.footer-link{
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.heading-index-03{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    width: 220px;
+    padding: 16px 0 16px 0;
+    margin-right: 22px;
+    margin-bottom: 20px;
+    border: #1c1c1c 4px solid;
+    text-align: center;
+    transition: 0.3s;
+}
+.heading-index-03:hover{
+    background-color: #8DE3D9;
+    transform: translateY(-4px);
+    transition: 0.4s;
+}
+
+.copylight{
+    font-weight: 900;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 90px;
+    transition: 0.3s;
+}
+.copylight:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.dashed{
+    width: 510px;
+    padding-bottom: 35px;
+    border-bottom: #1c1c1c 3px dashed;
+}
+.admin{
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 60px;
+    text-align: right;
+}
+.admin:hover{
+    opacity: 0.7;
+}
+
+/*==== リストスタイル ====*/
+.dot{
+    list-style-type: disc;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 17px;
+    line-height: 1.9;
+}
+.number-li{
+    list-style-type: decimal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+}
+.number-li li{
+    margin-left: 19px;
+}
+.dot-li{
+    list-style-type: disc;
+    list-style-position: outside;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 17px;
+    line-height: 2;
+}
+.dot-li-ch{
+    list-style-type: disc;
+    list-style-position: outside;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2;
+}
+.dot-li-ch li{
+    margin-left: 19px;
+}
+
+.dashed:last-child{
+    border-bottom: none;
+}
+
+.indent{
+    display: inline-block;
+    text-indent: -1em;
+    padding-left: 1em;
+
+}
