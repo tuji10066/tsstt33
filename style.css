@@ -720,3 +720,7 @@ footer{
 }
 .left_contents {
   width: 20%;
+}
+.right_contents {
+  float: right;
+  width: 80%;
