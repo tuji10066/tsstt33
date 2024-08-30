@@ -714,7 +714,6 @@ footer{
   display: flex;
 }
 .menu {
- position: -webkit-sticky;
 　position: sticky;
   background-color: lightgreen;
   top: 0;
